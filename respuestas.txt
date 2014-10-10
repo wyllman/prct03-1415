@@ -21,3 +21,36 @@ alu4298@cc192:~/datos/homes.rala/Documentos/LPP1415/prct03$
 
 Son dos interpretes distintos de ruby, el primero únicamente muestra los resultados de la ejecución del programa. El segundo (irb) ejecuta linea a linea el código y muestra los resultados de la ejecución además del valor que retorna cada ejecución de cada linea.
 
+------------------------------------------------------
+
+Pregunta 26:
+
+[1] pry(main)> puts x
+10
+=> nil
+...
+[4] pry(main)> def hello
+[4] pry(main)*   puts "hello world"
+[4] pry(main)* end  
+=> nil
+...
+[5] pry(main)> hello
+hello world
+=> nil
+...
+[8] pry(main)> byebye
+bye bye world!!
+=> nil
+[9] pry(main)> x = "changed"
+=> "changed"
+[10] pry(main)> exit
+program resumes here. Value of x is: changed.
+
+-----------------------------------------------------------------
+
+Pregunta 27:
+
+Una vez más, pry e irb son dos interpretes distintos. Con el uso de las librerías de pry puedes llamar a la consola de pry en cualquier punto de ejecución del programa y comprobar el estado del mismo en ese punto. Además de poder modificar el codigo y ejecutar nuevas sentencias, debuguear, ect...
+
+------------------------------------------------------------------
+

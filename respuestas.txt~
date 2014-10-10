@@ -1,0 +1,23 @@
+----------------------------------------------------
+Pregunta 18:
+
+2.0.0p247 :001 > puts "Hello world"
+Hello world
+ => nil 
+2.0.0p247 :002 > 
+
+---------------------------------------------------
+
+Pregunta 21:
+
+alu4298@cc192:~/datos/homes.rala/Documentos/LPP1415/prct03$ ruby helloworld.rb 
+Hola Mundo
+alu4298@cc192:~/datos/homes.rala/Documentos/LPP1415/prct03$ irb helloworld.rb 
+2.0.0p247 :001 > puts "Hola Mundo"
+Hola Mundo
+ => nil 
+2.0.0p247 :002 > 
+alu4298@cc192:~/datos/homes.rala/Documentos/LPP1415/prct03$ 
+
+Son dos interpretes distintos de ruby, el primero únicamente muestra los resultados de la ejecución del programa. El segundo (irb) ejecuta linea a linea el código y muestra los resultados de la ejecución además del valor que retorna cada ejecución de cada linea.
+
